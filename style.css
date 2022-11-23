@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin-left: 0;
+}
+
+.col-md-4 {
+    max-width: 100%;
+}
+
+.card {
+    background-color: aliceblue;
+}
+
+.game-card {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Open Sans', monospace;
+    justify-content: center;
+}
+
+.text-center {
+    width: fit-content;
+}
+
+.btn-info {
+    background-color: #19a4e994;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blur {
+    backdrop-filter: blur(100px);
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 240px;
+    
+}
+
+.formModal {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
